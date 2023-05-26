@@ -34,7 +34,7 @@ df.info()
 
 
 #null values must be removed before using regression
-df.isna().sum()
+df.isnull().sum()
 
 
 
