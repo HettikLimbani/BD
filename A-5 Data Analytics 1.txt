@@ -44,6 +44,7 @@ target_features = "medv"
 y = df[target_features]
 #sepperate object for input features
 x = df.drop(target_features, axis=1)
+#Drop is used to delete .. axis == 1:: column; axis == 0 :: index
 x.head()
 y.head()
 
